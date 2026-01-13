@@ -4,6 +4,8 @@ public class Math {
 
     private int magicNumber;
 
+    private boolean whatever = true;
+
     public Math(int magicNumber) {
         this.magicNumber = magicNumber;
     }
@@ -13,6 +15,23 @@ public class Math {
      */
     public int magicAdd(int x, int y) {
         if (y == magicNumber) {
+            if (x == magicNumber) {
+                if (y == magicNumber) {
+                    if (whatever == true){
+                        if (x == magicNumber) {
+                            if (y == magicNumber) {
+                                if (whatever == true){
+                                    System.out.println("I am covered!");
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            System.out.println("Am I am covered?");
+            System.out.println("Am I am covered?");
+            System.out.println("Am I am covered?");
+            System.out.println("Am I am covered?");
             System.out.println("Am I am covered?");
             return y - x;
         } else {
@@ -23,6 +42,21 @@ public class Math {
             System.out.println("I am covered!");
             System.out.println("I am covered!");
             System.out.println("I am covered!");
+            System.out.println("I am covered!");
+            System.out.println("I am covered!");
+            if (x == magicNumber) {
+                if (y == magicNumber) {
+                    if (whatever == true){
+                        if (x == magicNumber) {
+                            if (y == magicNumber) {
+                                if (whatever == true){
+                                    System.out.println("I am covered!");
+                                }
+                            }
+                        }
+                    }
+                }
+            }
             return x + y;
         }
     }
