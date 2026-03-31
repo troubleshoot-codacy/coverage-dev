@@ -21,6 +21,11 @@ public class Math {
             System.out.println("Am I am covered?!");
             return y - x;
         } else {
+            if(1 == 1) {
+                System.out.println("I am cover!");
+            } else {
+                System.out.println("I am covered!!!!");
+            }
             System.out.println("I am covered!");
             System.out.println("I am covered!?");
             return x + y;
