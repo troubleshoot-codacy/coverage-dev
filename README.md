@@ -5,6 +5,8 @@
 
 Example repository on how to generate a coverage report for Java!!
 
+Some changes
+
 ## Requirements
 
 - Maven 3.x
